@@ -1,0 +1,24 @@
+# build output
+Portal-inf-usm/dist/
+
+# generated types
+Portal-inf-usm/.astro/
+
+# dependencies
+*/node_modules/
+
+# logs
+Portal-inf-usm/npm-debug.log*
+Portal-inf-usm/yarn-debug.log*
+Portal-inf-usm/yarn-error.log*
+Portal-inf-usm/pnpm-debug.log*
+
+# environment variables
+Portal-inf-usm/.env
+Portal-inf-usm/.env.production
+
+# macOS-specific files
+Portal-inf-usm/.DS_Store
+
+# jetbrains setting folder
+Portal-inf-usm/.idea/

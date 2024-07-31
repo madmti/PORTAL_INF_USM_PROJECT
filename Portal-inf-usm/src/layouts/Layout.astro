@@ -1,0 +1,63 @@
+---
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+			rel="stylesheet"
+		/>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/portal/normal.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>
+
+<style is:global lang="scss">
+	$cyan-0: #000706;
+	$cyan-1: #00272d;
+	$cyan-2: #134647;
+	$cyan-3: #0c7e7e;
+	$cyan-4: #0fc3e8;
+	$cyan-5: #bfac8b;
+
+	html,
+	body {
+		display: grid;
+
+		margin: 0;
+		padding: 0;
+		
+		background-color: $cyan-1;
+		color: $cyan-4;
+
+		font-family: "Ubuntu", sans-serif;
+		font-weight: 500;
+
+		height: 100%;
+	}
+
+	h1 {
+		font-size: 104px;
+		text-shadow: $cyan-3 0 0 10px;
+	}
+
+	main {
+		display: grid;
+		place-items: center;
+	}
+</style>
