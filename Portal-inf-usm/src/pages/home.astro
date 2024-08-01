@@ -1,0 +1,77 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Bloque from '../components/Bloque.astro';
+
+interface Ramo {
+	name: string;
+	code: string;
+	bloque: string;
+	sala: string;
+}
+
+const info: Ramo[] = [
+	{
+		name: 'Fisica General',
+		code: 'FIS-130',
+		bloque: '1-2',
+		sala: 'P201',
+	},
+	{
+		name: 'Calculo',
+		code: 'MAT-024',
+		bloque: '3-4',
+		sala: 'C225',
+	},
+	{
+		name: 'Estructuras Discretas',
+		code: 'INF152',
+		bloque: '9-10',
+		sala: 'M102',
+	},
+];
+
+const fecha = new Date(Date.now()).toLocaleTimeString();
+---
+
+<Layout title="Home">
+	<main class="box">
+		<h2>
+            <p>
+                1-2
+            </p>
+			{fecha}
+		</h2>
+		<ul class="Bcyan-2">
+			{
+				info.map((ramo, idx) => {
+					return <Bloque name={ramo.name} bloque={ramo.bloque} />;
+				})
+			}
+		</ul>
+	</main>
+</Layout>
+
+<style lang="scss">
+	.box {
+		height: 100%;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+
+		& ul {
+			list-style: none;
+			padding: 0.5em;
+
+			border-radius: 1em;
+			outline: #0c7e7e solid 0.2em;
+		}
+
+        & h2 {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+	}
+</style>
