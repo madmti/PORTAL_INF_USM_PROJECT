@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f75c502e01879941",
+        "id": "51e2de9217baba85",
         "type": "tabs",
         "children": [
           {
-            "id": "3d83a8d16a76e8ff",
+            "id": "537e1ac53d7981b9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paginas.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Paginas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Paginas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Paginas.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,23 +139,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3d83a8d16a76e8ff",
+  "active": "537e1ac53d7981b9",
   "lastOpenFiles": [
     "Documentacion.md",
-    "Excalidraw/Horario-mobile.md",
     "Paginas.md",
-    "Excalidraw/Landing-mobile.md",
     "Excalidraw/Calendario-mobile.md",
+    "Excalidraw/Horario-mobile.md",
+    "Excalidraw/Manage-mobile.md",
+    "Excalidraw/Landing-mobile.md",
+    "Imagenes/editar-sombra.svg",
+    "Imagenes/edirar-brillante.svg",
+    "Imagenes/mas-sombra.svg",
+    "Imagenes/mas-brillante.svg",
     "Imagenes/brillante.svg",
     "Imagenes/bookmark-sombra.svg",
     "Imagenes/bookmark-cyan.svg",
     "Imagenes/blanco.svg",
     "Imagenes/exclamation-sombra.svg",
     "Imagenes/exclamation-cyan.svg",
-    "Imagenes/free-cyan.svg",
-    "Imagenes/github.svg",
-    "Imagenes/purple.svg",
-    "Imagenes/sombra.svg",
     "Imagenes",
     "Excalidraw",
     "Bienvenido.md"
