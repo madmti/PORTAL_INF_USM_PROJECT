@@ -93,7 +93,43 @@
     "type": "excalidrawlib",
     "version": 2,
     "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.2.13",
-    "libraryItems": []
+    "libraryItems": [
+      {
+        "status": "unpublished",
+        "elements": [
+          {
+            "type": "rectangle",
+            "version": 278,
+            "versionNonce": 141009273,
+            "index": "a1",
+            "isDeleted": false,
+            "id": "5S4C8anXp4hrvJSxpHsAN",
+            "fillStyle": "solid",
+            "strokeWidth": 2,
+            "strokeStyle": "solid",
+            "roughness": 0,
+            "opacity": 100,
+            "angle": 0,
+            "x": -199.9100335196777,
+            "y": -398.5362007369956,
+            "strokeColor": "#1e1e1e",
+            "backgroundColor": "#00272d",
+            "width": 477.8200670393554,
+            "height": 829.5880264739912,
+            "seed": 309535799,
+            "groupIds": [],
+            "frameId": null,
+            "roundness": null,
+            "boundElements": [],
+            "updated": 1722481073048,
+            "link": null,
+            "locked": false
+          }
+        ],
+        "id": "AFTCuni3Q4fzS8w9mr4bu",
+        "created": 1722481105137
+      }
+    ]
   },
   "imageElementNotice": true,
   "mdSVGwidth": 500,

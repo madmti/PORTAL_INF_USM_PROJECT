@@ -4,32 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "731a83eea66a692d",
+        "id": "f75c502e01879941",
         "type": "tabs",
         "children": [
           {
-            "id": "4b27910642c61f19",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Horario.md"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "3b3868311f98289b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2f9cb5de9ed7a0d5",
+            "id": "3d83a8d16a76e8ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentacion.md",
+                "file": "Paginas.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "beebd79912503a03",
@@ -102,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Horario.md",
+                "file": "Paginas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Horario.md",
+                "file": "Paginas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Horario.md"
+                "file": "Paginas.md"
               }
             }
           }
@@ -164,19 +147,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4b27910642c61f19",
+  "active": "3d83a8d16a76e8ff",
   "lastOpenFiles": [
     "Documentacion.md",
-    "Excalidraw/Horario.md",
-    "Imagenes/sombra.svg",
-    "Imagenes/oscuro.svg",
-    "Imagenes/normal.svg",
-    "Imagenes/negro.svg",
+    "Excalidraw/Horario-mobile.md",
+    "Paginas.md",
+    "Excalidraw/Landing-mobile.md",
+    "Excalidraw/Calendario-mobile.md",
     "Imagenes/brillante.svg",
+    "Imagenes/bookmark-sombra.svg",
+    "Imagenes/bookmark-cyan.svg",
     "Imagenes/blanco.svg",
-    "Imagenes/white.svg",
-    "General.md",
-    "Imagenes/cyan.svg",
+    "Imagenes/exclamation-sombra.svg",
+    "Imagenes/exclamation-cyan.svg",
+    "Imagenes/free-cyan.svg",
+    "Imagenes/github.svg",
+    "Imagenes/purple.svg",
+    "Imagenes/sombra.svg",
     "Imagenes",
     "Excalidraw",
     "Bienvenido.md"
