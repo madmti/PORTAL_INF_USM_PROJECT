@@ -22,3 +22,6 @@ Portal-inf-usm/.DS_Store
 
 # jetbrains setting folder
 Portal-inf-usm/.idea/
+
+# Logs from start_all
+Logs/*

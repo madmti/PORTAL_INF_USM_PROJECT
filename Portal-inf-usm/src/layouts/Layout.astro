@@ -80,6 +80,7 @@ const { title } = Astro.props;
 	html,
 	body {
 		display: grid;
+		overflow: hidden;
 
 		margin: 0;
 		padding: 0;
@@ -95,7 +96,29 @@ const { title } = Astro.props;
 
 	h1 {
 		font-size: 104px;
-		text-shadow: $cyan-3 0 0 10px;
+	}
+
+	h2 {
+		font-size: 54px;
+	}
+
+	h3 {
+		font-size: 28px;
+		font-weight: 600;
+	}
+
+	a{
+		text-decoration: none;
+	}
+
+	.button-light {
+		color: #00272d;
+		background-color: #0fc3e8;
+	}
+
+	.button-dark {
+		color: #0fc3e8;
+		background-color: #00272d;
 	}
 
 	main {

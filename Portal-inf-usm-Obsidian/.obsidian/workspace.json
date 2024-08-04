@@ -4,17 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "f75c502e01879941",
+        "id": "51e2de9217baba85",
         "type": "tabs",
+        "dimension": 58.63539445628998,
         "children": [
           {
-            "id": "3d83a8d16a76e8ff",
+            "id": "537e1ac53d7981b9",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Landing-mobile.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "4e221606b447ca81",
+        "type": "tabs",
+        "dimension": 41.36460554371002,
+        "children": [
+          {
+            "id": "27b4b9264a9f96d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paginas.md",
-                "mode": "preview",
+                "file": "Documentacion.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -69,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "beebd79912503a03",
@@ -85,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Paginas.md",
+                "file": "Excalidraw/Landing-mobile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Paginas.md",
+                "file": "Excalidraw/Landing-mobile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Paginas.md"
+                "file": "Excalidraw/Landing-mobile.md"
               }
             }
           }
@@ -147,23 +166,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3d83a8d16a76e8ff",
+  "active": "537e1ac53d7981b9",
   "lastOpenFiles": [
     "Documentacion.md",
-    "Excalidraw/Horario-mobile.md",
-    "Paginas.md",
     "Excalidraw/Landing-mobile.md",
+    "Paginas.md",
     "Excalidraw/Calendario-mobile.md",
+    "Excalidraw/Horario-mobile.md",
+    "Excalidraw/Manage-mobile.md",
+    "Imagenes/editar-sombra.svg",
+    "Imagenes/edirar-brillante.svg",
+    "Imagenes/mas-sombra.svg",
+    "Imagenes/mas-brillante.svg",
     "Imagenes/brillante.svg",
     "Imagenes/bookmark-sombra.svg",
     "Imagenes/bookmark-cyan.svg",
     "Imagenes/blanco.svg",
     "Imagenes/exclamation-sombra.svg",
     "Imagenes/exclamation-cyan.svg",
-    "Imagenes/free-cyan.svg",
-    "Imagenes/github.svg",
-    "Imagenes/purple.svg",
-    "Imagenes/sombra.svg",
     "Imagenes",
     "Excalidraw",
     "Bienvenido.md"
