@@ -1,0 +1,33 @@
+version: '3'
+
+services:
+
+  astro:
+    build:
+      context: ./Portal-inf-usm
+      dockerfile: ./Docker/docker-files/astro.dockerfile
+    ports:
+      - 4321:80
+    depends_on:
+      - express
+  
+  express:
+    build:
+      context: ./Portal-inf-usm-backend
+      dockerfile: ./Docker/docker-files/express.dockerfile
+    ports:
+      - 3000:3000
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME: root
+      - MONGO_INITDB_ROOT_PASSWORD: root
+      - DB_URI: uri
+
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    restart: unless-stopped
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME: root
+      - MONGO_INITDB_ROOT_PASSWORD: root
+    ports:
+      - 27017:27017

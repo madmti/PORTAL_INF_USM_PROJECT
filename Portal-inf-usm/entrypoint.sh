@@ -1,3 +1,3 @@
 #!/bin/sh
 
-bun dev
+bun start
