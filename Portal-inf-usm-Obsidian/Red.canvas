@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"c6a406abb72a6db4","type":"text","text":"### Mongo DB","x":300,"y":-116,"width":200,"height":56,"color":"4"},
+		{"id":"03f925b2debd7577","type":"text","text":"#### Express","x":-40,"y":-116,"width":160,"height":56,"color":"5"},
+		{"id":"f77cccb8403319bc","type":"text","text":"## Astro","x":-360,"y":-116,"width":132,"height":56,"color":"2"},
+		{"id":"62c914971415cd14","type":"text","text":"Register form","x":-366,"y":0,"width":145,"height":60,"color":"2"},
+		{"id":"0382492fcc118dd4","type":"text","text":"Check if email exists","x":-40,"y":0,"width":160,"height":60,"color":"5"},
+		{"id":"3435337317c3bcee","type":"text","text":"Hash password","x":-40,"y":100,"width":160,"height":60,"color":"5"},
+		{"id":"30e072928b8acb2c","type":"text","text":"# REGISTER","x":-660,"y":-30,"width":220,"height":290,"color":"1"},
+		{"id":"8c254d68a13754c0","type":"text","text":"# LOGIN","x":-660,"y":320,"width":220,"height":265,"color":"1"},
+		{"id":"fd06708c33fe93b4","type":"text","text":"Login form","x":-366,"y":320,"width":145,"height":60,"color":"2"},
+		{"id":"c1c1a80e7ec4a0ed","type":"text","text":"Check if user exists","x":-40,"y":320,"width":160,"height":60,"color":"5"},
+		{"id":"cb2e1b728af24021","type":"text","text":"Compare hash","x":-40,"y":423,"width":160,"height":60,"color":"5"},
+		{"id":"3d6958c38ab2d2c2","type":"text","text":"Auth model","x":300,"y":0,"width":200,"height":60,"color":"4"},
+		{"id":"c59515205ddc375d","type":"text","text":"##### Models","x":660,"y":-116,"width":640,"height":56,"color":"6"},
+		{"id":"6e3723fa66294557","type":"text","text":"#### Auth\n```ts\ninterface Auth {\n\temail: string;\n\tpassword: string;\n\tref: User;\n};\n```","x":660,"y":-45,"width":640,"height":245,"color":"6"},
+		{"id":"99de116385ec5606","type":"text","text":"Auth model","x":300,"y":100,"width":200,"height":60,"color":"4"},
+		{"id":"a6849ee65b2b256c","type":"text","text":"Auth model","x":300,"y":320,"width":200,"height":60,"color":"4"},
+		{"id":"7034d06b32a585d9","type":"text","text":"Client","x":-366,"y":200,"width":145,"height":60,"color":"2"},
+		{"id":"f66623cc32a021ab","type":"text","text":"Access Token","x":-40,"y":200,"width":160,"height":60,"color":"5"},
+		{"id":"afb22711ac16fb04","type":"text","text":"Client","x":-366,"y":525,"width":145,"height":60,"color":"2"},
+		{"id":"a42c544a05a16772","type":"text","text":"Access Token","x":-40,"y":525,"width":160,"height":60,"color":"5"},
+		{"id":"b7459e426cb413fd","type":"text","text":"#### Event\n```ts\ninterface Event {\n\timportance: number;\n\ttitle: string;\n\tdescription: string;\n};\n```","x":660,"y":228,"width":640,"height":245,"color":"6"},
+		{"id":"eb012cc8293488f7","type":"text","text":"#### Ramo\n```ts\ninterface Ramo {\n\tname: string;\n\tcode: string;\n\tpar: number;\n\thorario: Slot[];\n\teventos: Event[];\n};\n```","x":660,"y":760,"width":640,"height":300,"color":"6"},
+		{"id":"c827a76d7d7c8bfc","type":"text","text":"#### Slot\n```ts\ninterface Slot {\n\ttipo: \"catedra\" | \"ayudantia\" | \"laboratorio\" | \"taller\";\n\tbloque: string;\n\tsala: string;\n};\n```","x":660,"y":500,"width":640,"height":245,"color":"6"},
+		{"id":"7a64c58d5c9d0a7f","type":"text","text":"#### User\n```ts\ninterface User {\n\tname: string;\n\tramos: Ramo[];\n\talertas: Event[];\n};\n```","x":660,"y":1080,"width":640,"height":240,"color":"6"}
+	],
+	"edges":[
+		{"id":"9bacabf8effd6230","fromNode":"62c914971415cd14","fromSide":"right","toNode":"0382492fcc118dd4","toSide":"left","color":"1","label":"POST"},
+		{"id":"41873b8f26377170","fromNode":"fd06708c33fe93b4","fromSide":"right","toNode":"c1c1a80e7ec4a0ed","toSide":"left","color":"1","label":"GET"},
+		{"id":"c98aafacb594d14f","fromNode":"0382492fcc118dd4","fromSide":"right","toNode":"3d6958c38ab2d2c2","toSide":"left","color":"1","label":"FIND"},
+		{"id":"dd9c3122e51ec006","fromNode":"3d6958c38ab2d2c2","fromSide":"left","toNode":"0382492fcc118dd4","toSide":"right","color":"1"},
+		{"id":"d1e6faa0a3e40f16","fromNode":"3435337317c3bcee","fromSide":"right","toNode":"99de116385ec5606","toSide":"left","color":"1","label":"INSERT"},
+		{"id":"1d484d71ce534aed","fromNode":"c1c1a80e7ec4a0ed","fromSide":"right","toNode":"a6849ee65b2b256c","toSide":"left","color":"1"},
+		{"id":"f1ecf9c9037d81f9","fromNode":"a6849ee65b2b256c","fromSide":"left","toNode":"c1c1a80e7ec4a0ed","toSide":"right","color":"1","label":"FIND"},
+		{"id":"58535ce5854a519a","fromNode":"f66623cc32a021ab","fromSide":"left","toNode":"7034d06b32a585d9","toSide":"right","color":"1","label":"RESPONSE"},
+		{"id":"e90d035e188564fa","fromNode":"a42c544a05a16772","fromSide":"left","toNode":"afb22711ac16fb04","toSide":"right","color":"1","label":"RESPONSE"}
+	]
+}
