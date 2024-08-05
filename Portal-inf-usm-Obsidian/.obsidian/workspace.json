@@ -6,6 +6,7 @@
       {
         "id": "111b42e43ea9b3d6",
         "type": "tabs",
+        "dimension": 62.31343283582089,
         "children": [
           {
             "id": "52832330e0c9daeb",
@@ -15,10 +16,29 @@
               "state": {
                 "file": "Red.canvas",
                 "viewState": {
-                  "x": 1042.2848249864605,
-                  "y": 1140.2372898724495,
-                  "zoom": 0.5624366710023767
+                  "x": 163.21728370800184,
+                  "y": 357.89706754871804,
+                  "zoom": -0.5505633412364432
                 }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "4abae9063e25b62a",
+        "type": "tabs",
+        "dimension": 37.6865671641791,
+        "children": [
+          {
+            "id": "cc2612a351f7e71d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Documentacion.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -89,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red.canvas",
+                "file": "Documentacion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red.canvas",
+                "file": "Documentacion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red.canvas"
+                "file": "Documentacion.md"
               }
             }
           }
@@ -151,12 +171,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "52832330e0c9daeb",
+  "active": "2d2a8db57195c217",
   "lastOpenFiles": [
+    "Red.canvas",
     "Excalidraw/Calendario-mobile.md",
     "Excalidraw/Manage-mobile.md",
     "Excalidraw/Horario-mobile.md",
-    "Red.canvas",
     "Sin título.md",
     "Paginas.md",
     "Excalidraw/Landing-mobile.md",
