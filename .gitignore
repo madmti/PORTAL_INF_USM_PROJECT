@@ -25,3 +25,6 @@ Portal-inf-usm/.idea/
 
 # Logs from start_all
 Logs/*
+
+# Private env file
+.env

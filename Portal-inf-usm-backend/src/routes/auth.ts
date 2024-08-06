@@ -3,10 +3,29 @@ import { AuthModel } from '@/models/auth';
 
 const router = Router();
 
-router.get('/', (req, res) => {
-    res.json({
-        msg:"hello from backend!"
-    });
+interface AuthData {
+	email: string;
+	passw: string;
+};
+
+// LOGIN
+router.post('/login', (req, res) => {
+	const data: AuthData = req.body;
+	res.json({
+		status: false,
+		msg: 'message',
+		token: 'token',
+	});
+});
+
+// REGISTER
+router.post('/register', (req, res) => {
+	const data: AuthData = req.body;
+	res.json({
+		status: false,
+		msg: 'message',
+		token: 'token',
+	});
 });
 
 export default router;
