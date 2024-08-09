@@ -2,7 +2,6 @@ import { Schema, model } from 'mongoose';
 import { UserAuth } from '@/lib/types';
 
 const AuthSchema = new Schema<UserAuth>({
-	name: { type: String, required: true },
 	email: { type: String, required: true },
 	password: { type: String, required: true },
 });

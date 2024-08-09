@@ -1,25 +1,17 @@
-import { connect } from 'mongoose';
+import { connect, set } from 'mongoose';
 import { log } from '@/lib/funcs';
-import { URI, ROOT_PASW, ROOT_USER } from 'public.env';
+import { URI } from 'public.env';
+
+const easy_connect = async () => {
+	await connect(URI);
+	log(['DB:'.bgGreen, 'CONNECTED'.green], 0);
+};
 
 export const connectDB = async () => {
 	try {
-		await connect(URI, {
-			auth: {
-				username: ROOT_USER,
-				password: ROOT_PASW,
-			},
-		});
-		log(['DB:'.bgGreen, 'CONNECTED'.green], 0);
+		await easy_connect();
 	} catch {
-		log(['DB ERROR:'.bgRed, 'NO CREDENTIAL WAS PROVIDED'.red], 0);
-		log(['DB:'.bgYellow, 'Trying to connect without credentials'.yellow], 0);
-		try {
-			await connect(URI);
-			log(['DB:'.bgGreen, 'CONNECTED'.green], 0);
-		} catch {
-			console.log('DB: ERROR CONNECTING TO DATABASE'.bgRed);
-			process.exit(1);
-		}
+		console.log('DB: ERROR CONNECTING TO DATABASE'.bgRed);
+		process.exit(1);
 	}
 };

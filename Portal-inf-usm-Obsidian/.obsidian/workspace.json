@@ -6,7 +6,7 @@
       {
         "id": "111b42e43ea9b3d6",
         "type": "tabs",
-        "dimension": 62.31343283582089,
+        "dimension": 62.3134328358209,
         "children": [
           {
             "id": "52832330e0c9daeb",
@@ -16,9 +16,9 @@
               "state": {
                 "file": "Red.canvas",
                 "viewState": {
-                  "x": 163.21728370800184,
-                  "y": 357.89706754871804,
-                  "zoom": -0.5505633412364432
+                  "x": 1067.7010490486336,
+                  "y": 861.519221094838,
+                  "zoom": 0.3515524329182201
                 }
               }
             }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Documentacion.md",
+                "file": "Red.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Documentacion.md",
+                "file": "Red.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Documentacion.md"
+                "file": "Red.canvas"
               }
             }
           }

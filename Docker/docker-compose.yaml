@@ -18,8 +18,6 @@ services:
     ports:
       - 3000:3000
     environment:
-      - MONGO_INITDB_ROOT_USERNAME: root
-      - MONGO_INITDB_ROOT_PASSWORD: root
       - DB_URI: uri
 
   mongodb:
